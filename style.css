@@ -1,26 +1,76 @@
 body {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-    font-family: 'Montserrat', sans-serif;
-  }
-  
-  .navbar {
-    background: white;
-    height: 85px;
-    display: flex;
-    padding: 0 10%;
-    align-items: center;
-    justify-content: space-between;
-    box-shadow: 0 2px 4px 0 rgba(1, 1, 1, 0.1);
-  }
-  
-  .navbar > h1 {
-    font-size: 20px;
-    font-weight: bolder;
-  }
-  
-  .nav-menu {
-    display: flex;
-    gap: 30px;
-  }
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.navbar {
+  background: white;
+  height: 85px;
+  display: flex;
+  padding: 0 10%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar > h1 {
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+.nav-menu {
+  display: flex;
+  gap: 20px;
+}
+
+img {
+  width: 500px;
+  size: 100px;
+  float: right;
+  margin-top: 50px;
+  margin-right: 100px;
+}
+
+.text-container {
+  position: absolute;
+  margin-top: 150px;
+  margin-left: 100px;
+}
+
+.text-container p:nth-child(1){
+  font-size: 50px;
+  font-weight: bold;
+  margin-top: -30px;
+}
+
+.text-container p:nth-child(2){
+  font-size: 50px;
+  font-weight: bold;
+  margin-top: -50px;
+}
+
+.text-container p:nth-child(3){
+  margin-top: -40px;
+  color: gray;
+}
+
+.button-container {
+  margin-top: 10px;
+  border: none;
+}
+
+.btn-1 {
+  color: black;
+  border: 2px solid aqua;
+  background-color: white;
+  width: 120px;
+} 
+
+.btn-2 {
+  margin-left: 10px;
+  color: white;
+  background-color: aqua;
+  border: 2px solid white;
+  width: 120px;
+}
