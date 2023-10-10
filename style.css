@@ -170,7 +170,7 @@ table tr th {
   margin-top: 10px;
   color: gray;
   margin-left: 100px;
-  margin-top: -30px;
+  margin-top: -20px;
 }
 
 .card-grid {
@@ -216,4 +216,106 @@ table tr th {
   margin-top: 0px;
   margin-bottom: 0px;
   padding-left: 10px;
+}
+
+.contact-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px;
+}
+
+.contact-container {
+  width: 50%;
+  padding: 20px;
+}
+
+.contact-heading {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 30px;
+  margin-bottom: 10px;
+  margin-left: 90px;
+}
+
+.contact-subheading {
+  color: gray;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  font-size: 20px;
+  width: 1000px;
+  margin-left: 90px;
+}
+
+.form-container {
+  border: 3px solid turquoise;
+  padding: 20px;
+  width: 500px;
+  margin-left: 80px;
+  margin-top: 50px;
+}
+
+.form-heading {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.form-input-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.input-field {
+  flex: 1;
+  margin-right: 20px;
+  margin-bottom: 10px;
+}
+
+.input-field label {
+  display: block;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+  margin-bottom: 5px;
+}
+
+.form-input {
+  border-style: none;
+  border-bottom: 1px solid black;
+  height: 30px;
+  width: 100%;
+  font-size: 16px;
+  padding: 5px 0;
+}
+
+.form-submit {
+  width: 100%;
+  background-color: turquoise;
+  color: white;
+  border: none;
+  font-size: 20px;
+  font-family: 'Montserrat', sans-serif;
+  padding: 10px 0;
+  cursor: pointer;
+}
+
+.form-submit:hover {
+  background-color: turquoise;
+}
+
+.location-container {
+  width: 50%;
+}
+
+.location-heading {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  font-size: 30px;
+  text-align: left;
+  margin-bottom: 20px;
+  margin-top: 170px;
 }
