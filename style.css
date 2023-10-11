@@ -66,6 +66,14 @@ img {
   border: none;
 }
 
+.container-logo {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  right: 10px;
+  margin-right: 50px;
+}
+
 .btn-1 {
   color: black;
   border: 2px solid turquoise;
@@ -173,6 +181,20 @@ table tr th {
   margin-top: -20px;
 }
 
+.text-footer p:nth-child(1){
+  font-size: 40px;
+  font-weight: bold;
+  margin-left: 65px;
+  color: white;
+}
+
+.text-footer p:nth-child(2){
+  margin-top: 10px;
+  color:white;
+  margin-left: 65px;
+  margin-top: -30px;
+}
+
 .card-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -246,7 +268,10 @@ table tr th {
   width: 1000px;
   margin-left: 90px;
 }
-
+.container-footer {
+  align-items: center;
+  display: flex;
+}
 .form-container {
   border: 3px solid turquoise;
   padding: 20px;
@@ -318,4 +343,21 @@ table tr th {
   text-align: left;
   margin-bottom: 20px;
   margin-top: 170px;
+}
+
+footer {
+  background-color: turquoise;
+  padding: 20px;
+  position: relative;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.social-icon {
+  margin-right: 10px;
+  width: 50px;
+  margin-bottom: 50px;
 }
